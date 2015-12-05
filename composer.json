@@ -1,0 +1,26 @@
+{
+    "name": "amostajo/php-json-array",
+    "description": "Simple class that extends the capabilities of the basic php *array* by adding json casting and file handling (read and write).",
+    "homepage": "https://github.com/amostajo/php-json-array",
+    "keywords": [
+        "json",
+        "array",
+        "php"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alejandro Mostajo",
+            "homepage": "http://about.me/amostajo"
+        }
+    ],
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
